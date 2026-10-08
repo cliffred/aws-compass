@@ -1,0 +1,16 @@
+{
+  "defaults": {
+    "profile": "my-aws-profile",
+    "compassPath": "/Applications/MongoDB Compass.app/Contents/MacOS/MongoDB Compass",
+    "mongoshPath": "mongosh"
+  },
+  "connections": {
+    "my-cluster": {
+      "uri": "mongodb+srv://my-cluster-pl-0.xmbso.mongodb.net",
+      "profile": "my-aws-profile"
+    },
+    "example-with-options": {
+      "uri": "mongodb+srv://example.xmbso.mongodb.net/mydb?appName=aws-compass&readPreference=secondary"
+    }
+  }
+}
